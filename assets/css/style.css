@@ -1,28 +1,32 @@
 header {
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
 	width: 960px;
-	height: 50px;
+	height: 70px;
+	padding-top: 10px;
 	margin-bottom: 20px;
 	border-color: #cccccc;
+	background-color: #fff;
 
 }
 #name {
 	color: #fff;
 	background-color:#4aaaa5;
 	margin: 5px;
-	width: 350px;
+	width: 300px;
 	text-align: center;
 	height: 50px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	margin-left: 20px;
 	padding-top: 10px;
+	position: fixed;
+
 
 }
 
 ul {
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding-top: 30px;
 }
 
 li {
@@ -37,18 +41,20 @@ a {
 }
 
 body {
-	background: url(../assets/images/seigaiha/'seigaiha.png') no-repeat center center fixed;
+	background: url('../images/seigaiha/seigaiha.png') repeat;
+	width: 960px;
 
 }
 
 #about-me-box {
 	padding: 20px;
-	margin: 20px;
+	margin: 40px;
+	margin-right: 20px;
 	float: left;
 	border-color: #dddddd;
-	height: 
-	width:;
-	border-color: 
+	height: 650px;
+	width: 650px;
+	background-color: #fff;
 }
 
 #about-me {
@@ -67,10 +73,20 @@ p {
 	float: left;
 	color: #777777;
 	padding: 20px;
-	margin: 20px;
+	margin: 75px;
+	width: 270px;
+	height: 270px;
+	background-color: #fff;
 
 }
 
 #footer {
 	background-color: #666666;
+	clear: both;
+	width: 960px;
+	height: 50px;
+	margin-top: 20px;
+	padding: 20px;
+	position: fixed;
+
 }
