@@ -2,45 +2,53 @@
 <html>
 <head>
 	<title>Contact Me</title>
-	
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<header>
-		<h1>Emily Polansky</h1>
+
+		
+		<h1 id="name">Emily Polansky</h1>
 		<ul>
 			<li><a href="#">About</a></li>
 			<li><a href="#">Portfolio</a></li>
 			<li><a href="#">Contact</a></li>
 		</ul>
+
 	</header>
 
-	<div>
-		<h1>Contact</h1>
-		<form>
+	<div id="contactbox">
+		<h1 id="contact-head">Contact Me</h1><hr>
+		<container class="contactme">
+		<form id="name-input">
 			Name: <br>
-			<input type="text" name="fullname">
+			<input id="fullname" type="text" name="fullname">
 		</form>
-		<form>
+		<form id="email-input">
 			Email: <br>
-			<input type="text" name="email">
+			<input id="email" type="text" name="email">
 		</form>
-		<form>
+		<form id="message-input">
 			Message: <br>
-			<input type="text" name="message">
+			<input id="message" type="text" name="message">
 		</form>
+
 
 		<button>Submit</button>
 
+		</container>
 	</div>
 
-	<div>
-		<h1>Connect With Me</h1>
-		<img src="#" alt="github">
-		<img src="#" alt="linkedin">
-		<img src="#" alt="stack">
+	<div id="connect">
+		<h1>Connect With Me</h1> <hr>
+		<img src="assets/images/1495009861_github-square-social-media.png" alt="github" id="github">
+		<img src="assets/images/1495009810_social_style_3_in.png" alt="linkedin" id="linkedin">
+		<img src="assets/images/1495009892_stackoverflow-square-social-media.png" alt="stack" id="stack">
 	</div>
 
 	<footer>Copyright 2017 Emily Polansky</footer>
+
 
 </body>
 </html>
