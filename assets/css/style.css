@@ -1,3 +1,23 @@
+header {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 960px;
+	height: 50px;
+	margin-bottom: 20px;
+
+}
+#name {
+	color: #fff;
+	background-color:#4aaaa5;
+	margin: 5px;
+	width: 350px;
+	text-align: center;
+	height: 50px;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	margin-left: 20px;
+	padding-top: 10px;
+
+}
+
 ul {
 	list-style-type: none;
     margin: 0;
@@ -7,9 +27,32 @@ ul {
 li {
 	display: inline;
 	float: right;
+	font-family: 'Georgia', "Times, Times New Roman", serif;
 }
 
 a {
 	display: block;
     padding: 8px;
+}
+
+#about-me-box {
+	padding: 20px;
+	margin: 20px;
+	float: left;
+}
+
+#about-me {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	padding: 10px;
+	margin-bottom: 10px;
+	color: #777777;
+
+}
+
+#connect {
+	float: left;
+	color: #777777;
+	padding: 20px;
+	margin: 20px;
+
 }
