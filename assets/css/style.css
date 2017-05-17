@@ -1,3 +1,6 @@
+/*on every page*/
+
+/*heading of page*/
 header {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	width: 960px;
@@ -14,7 +17,7 @@ header {
 	padding: 2px;
 
 }
-
+/*name in box*/
 #name {
 	color: #fff;
 	background-color:#4aaaa5;
@@ -32,7 +35,7 @@ header {
 	top: 0%
 
 }
-
+/*links to other pages*/
 ul {
 	list-style-type: none;
     margin: 10px;
@@ -58,39 +61,7 @@ body {
 	margin-top: 0;
 
 }
-
-#about-me-box {
-	padding: 19px;
-	margin: 40px;
-	margin-right: 20px;
-	float: left;
-	border-color: #dddddd;
-	height: 650px;
-	width: 450px;
-	background-color: #fff;
-	border-style: solid;
-	border-width: 1px;
-	border-color: #777;
-}
-
-#about-me {
-	font-family: 'Georgia', Times, "Times New Roman", serif;
-	margin-bottom: 10px;
-	color: #777777;
-}
-
-#Emily {
-	height: 45%;
-	width: 50%;
-	position: relative;
-}
-
-p {
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	position: absolute;
-}
-
-
+/*connect with me box*/
 #connect {
 	float: left;
 	color: #777777;
@@ -144,12 +115,45 @@ p {
 	border-color: #777;
 }
 
+/*About Me page*/
+#about-me-box {
+	padding: 19px;
+	margin: 40px;
+	margin-right: 20px;
+	float: left;
+	border-color: #dddddd;
+	height: 650px;
+	width: 450px;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #777;
+}
+
+#about-me {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	margin-bottom: 10px;
+	color: #777777;
+}
+/*photo of me*/
+#Emily {
+	height: 45%;
+	width: 50%;
+	position: relative;
+}
+
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: absolute;
+}
+
+/*contact me page*/
 #contact {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	margin-bottom: 10px;
 	color: #777777;
 }
-
+/*form container*/
 .contactme {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	position: relative;
@@ -199,7 +203,25 @@ button {
 	left: 20px;
 }
 
+/*Portfolio page*/
+.portfolio {
+	padding: 19px;
+	margin: 40px;
+	margin-right: 20px;
+	float: left;
+	border-color: #dddddd;
+	height: 650px;
+	width: 450px;
+	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #777;
+}
 
+
+
+
+/*on all pages -- footer ---*/
 footer {
 	background-color: #666666;
 	clear: both;
