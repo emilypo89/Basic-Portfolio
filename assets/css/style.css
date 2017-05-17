@@ -2,31 +2,42 @@ header {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	width: 960px;
 	height: 70px;
-	padding-top: 10px;
 	margin-bottom: 20px;
 	border-color: #cccccc;
 	background-color: #fff;
+	position: relative;
+	top: 0;
+	margin-top: 0;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #777777;
+	padding: 2px;
 
 }
+
 #name {
 	color: #fff;
 	background-color:#4aaaa5;
 	margin: 5px;
 	width: 300px;
 	text-align: center;
-	height: 50px;
+	height: 60px;
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	margin-left: 20px;
-	padding-top: 10px;
-	position: fixed;
-
+	padding-top: 14px;
+	/*padding-bottom: 1px;*/
+	position: absolute;
+	bottom: -5px;
+	margin-top: 0;
+	top: 0%
 
 }
 
 ul {
 	list-style-type: none;
     margin: 10px;
-    padding-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 li {
@@ -43,50 +54,93 @@ a {
 body {
 	background: url('../images/seigaiha/seigaiha.png') repeat;
 	width: 960px;
+	margin-top: 0;
 
 }
 
 #about-me-box {
-	padding: 20px;
+	padding: 19px;
 	margin: 40px;
 	margin-right: 20px;
 	float: left;
 	border-color: #dddddd;
 	height: 650px;
-	width: 650px;
+	width: 450px;
 	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #777;
 }
 
 #about-me {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
-	padding: 10px;
+	/*padding: 10px;*/
 	margin-bottom: 10px;
 	color: #777777;
 
 }
 
+#Emily {
+	height: 45%;
+	width: 50%;
+	position: relative;
+}
+
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	position: absolute;
 }
+
 
 #connect {
 	float: left;
 	color: #777777;
 	padding: 20px;
-	margin: 75px;
+	margin: 40px;
 	width: 270px;
 	height: 270px;
 	background-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #777;
 
 }
 
-#footer {
+#github {
+	float: left;
+	height: 25%;
+	width: 25%;
+	margin-left: 10px;
+	margin-top: 40px;
+}
+
+#linkedin {
+	float: left;
+	height: 25%;
+	width: 25%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+#stack {
+	float: left;
+	height: 25%;
+	width: 25%;
+	margin-top: 40px;
+}
+
+footer {
 	background-color: #666666;
 	clear: both;
 	width: 960px;
 	height: 50px;
 	margin-top: 20px;
+	bottom: 0;
 	padding: 20px;
-	position: fixed;
-
+	border-color: #4aaaa5;
+	border-top-style: solid;
+	border-width: 20px;
+	text-align: center;
+	color: #fff;
 }
