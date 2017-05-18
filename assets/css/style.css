@@ -250,8 +250,7 @@ button {
 	width: 200px;
 	position: relative;
 	left: 40px;
-	bottom: 51px;
-	/*padding-right: 5px;*/
+	bottom: 31px;
 	z-index: 1;
 	border-color: #4aaaa5;
 	border-style: solid;
@@ -263,7 +262,6 @@ button {
 	height: 200px;
 	width: 200px;
 	position: relative;
-	/*padding-left: 5px;*/
 	z-index: 1;
 	border-color: #4aaaa5;
 	border-style: solid;
@@ -276,8 +274,6 @@ button {
 	width: 200px;
 	position: relative;
 	left: 40px;
-	/*bottom: 40px;*/
-/*	padding-right: 5px;*/
 	z-index: 1;
 	border-color: #4aaaa5;
 	border-style: solid;
@@ -313,11 +309,10 @@ button {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	padding-right: 1px;
-	margin: auto;
+	margin: 0 auto;
 }
 
 #project3 {
-	/*height: 22px;*/
 	width: 201px;
 	color: #fff;
 	background-color:#4aaaa5;
@@ -325,11 +320,11 @@ button {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 	position: relative;
 	top: 149px;
-    right: 125px;
 	z-index: 2;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 2px;
 }
 
 #project4 {
