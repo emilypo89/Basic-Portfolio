@@ -218,10 +218,123 @@ button {
 	border-color: #777;
 }
 
+#portfolio-head {
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	margin-bottom: 10px;
+	color: #777777;
+}
+
+#sunset {
+	float: left;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	z-index: 1;
+	border-color: #4aaaa5;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#mountain {
+	float: left;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 40px;
+	bottom: 40px;
+	/*padding-right: 5px;*/
+	z-index: 1;
+	border-color: #4aaaa5;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#leaves {
+	float: left;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	/*padding-left: 5px;*/
+	z-index: 1;
+	border-color: #4aaaa5;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#flowers {
+	float: left;
+	height: 200px;
+	width: 200px;
+	position: relative;
+	left: 40px;
+	bottom: 40px;
+/*	padding-right: 5px;*/
+	z-index: 1;
+	border-color: #4aaaa5;
+	border-style: solid;
+	border-width: 1px;
+}
+
+#project1 {
+	height: 20px;
+	width: 201px;
+	color: #fff;
+	background-color:#4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	position: relative;
+	bottom: -170px;
+	z-index: 2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#project2 {
+	height: 20px;
+	width: 201px;
+	color: #fff;
+	background-color:#4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	position: relative;
+	left: 242px;
+	bottom: -122px;
+	z-index: 2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#project3 {
+	height: 20px;
+	width: 201px;
+	color: #fff;
+	background-color:#4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	position: relative;
+	top: 325px;
+	z-index: 2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#project4 {
+	height: 20px;
+	width: 201px;
+	color: #fff;
+	background-color:#4aaaa5;
+	text-align: center;
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	position: absolute;
+	top: 625px;
+	left: 310px;
+	z-index: 2;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 
-
-/*on all pages -- footer ---*/
+/*on all pages -- footer ---
 footer {
 	background-color: #666666;
 	clear: both;
